@@ -1,0 +1,19 @@
+{
+  "name": "senjaaati.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senjaaati/senjaaati.github.io.git#abib"
+  },
+  "author": "Senjaaa TI All",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senjaaati/senjaaati.github.io/issues"
+  },
+  "homepage": "https://github.com/senjaaati/senjaaati.github.io/tree/abib#readme"
+}
