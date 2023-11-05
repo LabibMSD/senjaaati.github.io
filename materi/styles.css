@@ -1,0 +1,31 @@
+@import url(../styles.css);
+
+.container ul li a {
+    transition: 0.3s;
+    position: absolute;
+} .container ul li a:hover {
+    text-decoration: underline;
+    transform: translate(10px, 0);
+} .container ul li:hover {
+    list-style: circle;
+} .container ul li {
+    list-style: disc;
+    transition: 0.3s;
+} .container ul li a::before {
+    display: block;
+    content: '';
+    height: 5px;width: 500px;
+    background-color: #333;
+    ;
+    position: absolute;
+    left: -700px; bottom: 0;
+    transition: 0.3s;z-index: -1;
+} .container ul li a:hover::before{
+    transform: translateX(500px);
+}
+
+@media only screen and (max-width: 768px) {
+    .container.materi {
+        padding: 0 5vh;
+    }
+}
